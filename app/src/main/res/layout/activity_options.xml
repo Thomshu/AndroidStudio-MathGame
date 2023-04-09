@@ -4,56 +4,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
     android:orientation="vertical"
-    android:padding="50dp"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
     tools:context=".OptionsActivity">
+
+    <TextView
+        android:id="@+id/welcomeText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Choose the Gamemode!"
+        android:textColor="@color/LightGoldenrodYellow"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        app:srcCompat="@drawable/nod3" />
 
     <Button
         android:id="@+id/buttonMakeAWish"
-        android:layout_width="300dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:padding="15dp"
-        android:text="Make A Wish" />
+        android:padding="10dp"
+        android:text="Make A Wish"
+        android:backgroundTint="@color/Gold"
+        android:textColor="@color/black"
+        />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/_12x112_thinking" />
+
     <Button
         android:id="@+id/buttonNoMistake"
-        android:layout_width="300dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:padding="15dp"
-        android:text="No Mistake" />
+        android:padding="10dp"
+        android:text="No Mistake"
+        android:backgroundTint="@color/holo_red_dark"
+        />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/_00x200_noted" />
+
     <Button
         android:id="@+id/buttonTakeChances"
-        android:layout_width="300dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:padding="15dp"
-        android:text="Take Chances" />
+        android:padding="10dp"
+        android:text="Take Chances"
+        android:backgroundTint="@color/PaleVioletRed"
+        />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/_00x200_peek" />
+
     <Button
         android:id="@+id/buttonTimeTrial"
-        android:layout_width="300dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:padding="15dp"
-        android:text="Time Trial" />
+        android:padding="10dp"
+        android:text="Time Trial"
+        android:backgroundTint="@color/OrangeRed"
+        />
 
     <TextView
         android:id="@+id/textView4"

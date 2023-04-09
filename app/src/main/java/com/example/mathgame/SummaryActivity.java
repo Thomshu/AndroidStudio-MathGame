@@ -29,6 +29,6 @@ public class SummaryActivity extends AppCompatActivity {
         for(String QandAItem : QandA){
             QandASummary += QandAItem + "\n";
         }
-        txtSummary.setText("!!!GAME OVER!!!\nTime Taken: " + elapsedSeconds + " Seconds\n\nYourScore: " + score + "\n\n" + QandASummary);
+        txtSummary.setText("\nTime Taken: " + elapsedSeconds + " Seconds\n\nYourScore: " + score + "\n\n" + QandASummary);
     }
 }
